@@ -1,10 +1,10 @@
 # Effi
 
-import os
-import sys
-sys.path.append("Monk_Object_Detection/4_efficientdet/lib/");
-from train_detector import Detector
-gtf = Detector();
+- import os
+- import sys
+- sys.path.append("Monk_Object_Detection/4_efficientdet/lib/");
+- from train_detector import Detector
+- gtf = Detector();
 #directs the model towards file structure
 root_dir = "./";
 coco_dir = "Drone";
